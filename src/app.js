@@ -9,9 +9,12 @@ Vue.use(Router);
 var router = new Router();
 
 router.map({
+  '*' : {
+    component: require('./components/not-found.vue')
+  },
   '/': {
     component: require('./components/dashboard.vue')
-  },
+  }
 });
 
 router.start(App, '#app');
