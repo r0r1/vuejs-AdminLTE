@@ -1,3 +1,4 @@
+
 <template>
   <app-header></app-header>
   <app-menu></app-menu>
@@ -9,6 +10,11 @@
   
   module.exports = {
     name : 'Container',
+    data: function(){
+      return {
+        menus: require('./../../config/menus.js') || []
+      }
+    },
     replace: false,
     components: {
       'app-header' : require('./layout/header.vue'),
@@ -17,4 +23,5 @@
       'app-footer': require('./layout/footer.vue')
     }
   }
+  
 </script>
