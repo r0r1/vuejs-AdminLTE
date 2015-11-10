@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "watchify -vd -p browserify-hmr -t vueify -e src/app.js -o build/build.js & http-server -c 1 -a localhost",
+    "dev": "watchify -vd -p browserify-hmr -t vueify -e src/app.js -o build/build.js & http-server -c 1 -a localhost & grunt",
     "build": "NODE_ENV=production ./node_modules/watchify/node_modules/.bin/browserify -t vueify -e src/app.js | uglifyjs -c warnings=false -m > build/build.js"
   },
   "keywords": [
