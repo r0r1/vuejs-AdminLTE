@@ -2,7 +2,7 @@
 <template>
   <app-header></app-header>
   <app-menu></app-menu>
-  <app-content title="Dashboard"></app-content>
+  <app-content></app-content>
   <app-footer></app-footer>
 </template>
 
