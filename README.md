@@ -15,51 +15,49 @@ npm run dev
 ```
 
 ## Usage
-  # Create Page
-    - Create file in components folder
 
-      ``` html
-      # user.vue
-      <template>
-        <h3>User Lists</h3>
-      </template>
+# Create Page
+- Create file in components folder
 
-      <style>
-        // style here
-      </style>
+  ``` html
+  # user.vue
+  <template>
+    <h3>User Lists</h3>
+  </template>
 
-      <script>
-        // script here
-      </script>
-      ```
-    - Register route component in **src/app.js**
+  <style>
+    // style here
+  </style>
 
-      ``` html
-      router.map({
-        '/user': {
-          component: require('./components/user.vue')
-        }
-      });
+  <script>
+    // script here
+  </script>
+  ```
+- Register route component in **src/app.js**
 
-      ```
-
-  # Add Menu
-    Open config/menus.js, and modify json data.
-    ``` html
-    {
-      name: 'Dashboard',
-      link: '/',
-      icon: 'fa-home',
-      child: [{
-        name: 'Child Dashboard',
-        link: '/child',
-        icon: 'fa-circle-o',
-        }
-      ] 
-      // child is optional
+  ``` html
+  router.map({
+    '/user': {
+      component: require('./components/user.vue')
     }
-    ```
+  });
 
+  ```
 
+# Add Menu
+Open config/menus.js, and modify json data.
 
-
+``` html
+{
+  name: 'Dashboard',
+  link: '/',
+  icon: 'fa-home',
+  child: [{
+    name: 'Child Dashboard',
+    link: '/child',
+    icon: 'fa-circle-o',
+    }
+  ] 
+  // child is optional
+}
+```
