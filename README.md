@@ -1,5 +1,5 @@
 # vuejs-AdminLTE
-Admin LTE Starter for Vue JS
+Admin LTE Starter for [Vue JS] (http://vuejs.org/)
 
 ## Installation
 
