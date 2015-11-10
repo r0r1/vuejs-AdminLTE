@@ -1,5 +1,5 @@
 # vuejs-AdminLTE
-Admin LTE Starter for [Vue JS] (http://vuejs.org/)
+[Admin LTE] (https://almsaeedstudio.com/preview) Starter for [Vue JS] (http://vuejs.org/)
 
 ## Installation
 
@@ -16,7 +16,7 @@ npm run dev
 
 ## Usage
 
-# Create Page
+### Create Page
 - Create file in components folder
 
   ``` html
@@ -44,7 +44,7 @@ npm run dev
 
   ```
 
-# Add Menu
+### Add Menu
 Open config/menus.js, and modify json data.
 
 ``` html
