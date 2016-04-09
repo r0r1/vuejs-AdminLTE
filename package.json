@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "watchify -vd -p browserify-hmr -t vueify -e src/app.js -o build/build.js & http-server -c 1 -a localhost & grunt",
-    "build": "NODE_ENV=production ./node_modules/watchify/node_modules/.bin/browserify -t vueify -e src/app.js | uglifyjs -c warnings=false -m > build/build.js"
+    "build": "NODE_ENV=production browserify -t vueify -e src/app.js | uglifyjs -c warnings=false -m > build/build.js",
+    "start": "nohup http-server -p 8080 ./ > /dev/null 2>&1 & echo $! > ./run.pid"
   },
   "keywords": [
     "Vue",
@@ -22,6 +23,7 @@
     "babel-runtime": "^5.8.25",
     "browserify-hmr": "^0.3.1",
     "grunt": "~0.4.4",
+    "grunt-browserify": "^4.0.1",
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-cssmin": "latest",
@@ -40,7 +42,10 @@
     "watchify": "^3.4.0"
   },
   "dependencies": {
+    "browserify": "^13.0.0",
     "vue": "^1.0.7",
-    "vue-router": "^0.7.5"
+    "vue-resource": "^0.1.17",
+    "vue-router": "^0.7.5",
+    "vue-strap": "^0.1.2"
   }
 }
