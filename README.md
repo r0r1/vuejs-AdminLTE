@@ -15,6 +15,7 @@ npm build
 
 # start app
 npm start
+```
 
 ## Usage
 
