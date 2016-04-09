@@ -12,11 +12,9 @@ bower install
 
 # build asset
 npm build
-```
 
 # start app
 npm start
-```
 
 ## Usage
 
