@@ -10,11 +10,8 @@ npm install
 # install bower
 bower install
 
-# build asset
-npm build
-
-# start app
-npm start
+# run
+npm run dev
 ```
 
 ## Usage
