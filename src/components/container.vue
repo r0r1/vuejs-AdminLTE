@@ -2,7 +2,7 @@
   <div v-if="!login">
     <app-header></app-header>
     <app-menu></app-menu>
-    <app-content></app-content>
+    <app-content :title="title"></app-content>
     <app-footer></app-footer>
   </div>
 
@@ -18,6 +18,7 @@
     data: function(){
       return {
         login: true,
+        title: null,
         body_class: "hold-transition login-page", 
         menus: require('./../../config/menus.js') || []
       }

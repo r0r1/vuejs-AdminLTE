@@ -6,7 +6,7 @@ module.exports = [
   },
   {
     name: 'Users',
-    link: '/user',
+    link: '/users',
     icon: 'fa-user',
     child: [
     {
@@ -16,7 +16,7 @@ module.exports = [
     },
     {
       name: 'Lists',
-      link: '/user/lists',
+      link: '/users',
       icon: 'fa-circle-o'
     }
     ]

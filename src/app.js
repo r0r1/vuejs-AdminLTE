@@ -14,6 +14,12 @@ router.map({
   },
   '/': {
     component: require('./components/dashboard.vue')
+  },
+  '/users': {
+    component: require('./components/users/index.vue')
+  },
+  '/user/new': {
+    component: require('./components/users/new.vue')
   }
 });
 
