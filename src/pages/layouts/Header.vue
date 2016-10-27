@@ -1,8 +1,7 @@
 <template>
   <header class="main-header">
-
     <!-- Logo -->
-    <a v-link="{ path: '/user' }" class="logo">
+    <a v-link="{ path: '/' }" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LTE</span>
       <!-- logo for regular state and mobile devices -->
@@ -32,7 +31,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src="~assets/images/user/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="~assets/images/user2-160x160.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Support Team
@@ -45,7 +44,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="~assets/images/user/user3-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="~assets/images/user3-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         AdminLTE Design Team
@@ -57,7 +56,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="~assets/images/user/user4-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="~assets/images/user4-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Developers
@@ -69,7 +68,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="~assets/images/user/user3-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="~assets/images/user3-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Sales Department
@@ -81,7 +80,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="~assets/images/user/user4-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="~assets/images/user4-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Reviewers
@@ -214,13 +213,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="~assets/images/user/user2-160x160.jpg" class="user-image" alt="User Image">
+              <img src="~assets/images/user2-160x160.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="~assets/images/user/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="~assets/images/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Alexander Pierce - Web Developer
@@ -261,7 +260,7 @@
 
 <script>
   export default {
-    name: 'UserHeader',
+    name: 'Header',
     data() {
       return {
       };

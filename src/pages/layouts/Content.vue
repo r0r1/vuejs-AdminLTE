@@ -9,7 +9,11 @@
       </section>
       <!-- Main content -->
       <section class="content">
-        <router-view>
+        <router-view
+        class="view"
+        keep-alive
+        transition
+        transition-mode="out-in">
         </router-view>
       </section>
     <!-- /.content -->
@@ -19,7 +23,7 @@
 
 <script>
   export default {
-    name: 'UserContent',
+    name: 'Content',
     data() {
       return {
       };

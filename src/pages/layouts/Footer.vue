@@ -12,7 +12,7 @@
 
 <script>
   export default {
-    name: 'UserFooter',
+    name: 'Footer',
     data() {
       return {
       };

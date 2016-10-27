@@ -1,24 +1,31 @@
-import User from './components/User';
-import Dashboard from './components/UserDashboard';
-import Setting from './components/UserSetting';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import Setting from './pages/Setting';
+// User
+import User from './pages/users/User';
+import UserList from './pages/users/UserList';
+import UserNew from './pages/users/UserNew';
+
 
 export default {
   '/login': {
     component: Login,
   },
-  '/register': {
-    component: Register,
+  '/': {
+    component: Dashboard,
   },
   '/user': {
     component: User,
     subRoutes: {
-      '/dashboard': {
-        component: UserDashboard,
+      '/list': {
+        component: UserList,
       },
-      '/setting': {
-        component: UserSetting,
+      '/new': {
+        component: UserNew,
       },
     },
-    auth: true,
+  },
+  '/settings': {
+    component: Setting,
   },
 };

@@ -3,7 +3,6 @@ import App from './App';
 import VueRouter from 'vue-router';
 import Router from './routes';
 import VueResource from 'vue-resource';
-import auth from './services/AuthService';
 
 Vue.use(VueResource);
 // install router
@@ -20,7 +19,7 @@ export const router = new VueRouter({
 router.map(Router);
 
 router.beforeEach((transition) => {
-  if (transition.to.auth && !auth.user.authenticated) {
+  if (transition.to.auth) {
     transition.redirect('/login');
   } else {
     transition.next();

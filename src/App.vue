@@ -1,15 +1,15 @@
 <template>
-  <header></header>
-  <sidebar></sidebar>
-  <content :title="title"></content>
-  <footer></footer>
+  <app-header></app-header>
+  <app-sidebar></app-sidebar>
+  <app-content :title="title"></app-content>
+  <app-footer></app-footer>
 </template>
 
 <script>
-import Header from './components/layouts/Header';
-import Sidebar from './components/layouts/Sidebar';
-import Content from './components/layouts/Content';
-import Footer from './components/layouts/Footer';
+import AppHeader from './pages/layouts/Header';
+import AppSidebar from './pages/layouts/Sidebar';
+import AppContent from './pages/layouts/Content';
+import AppFooter from './pages/layouts/Footer';
 import Menus from './../config/menus';
 
 export default {
@@ -23,18 +23,12 @@ export default {
   },
   replace: false,
   components: {
-    Header,
-    Sidebar,
-    Content,
-    Footer,
+    AppHeader,
+    AppSidebar,
+    AppContent,
+    AppFooter,
   },
 };
 </script>
 
-<!-- <style src="../static/plugins/jvectormap/jquery-jvectormap-1.2.2.css"></style> -->
-<style src="../static/plugins/ionslider/ion.rangeSlider.css" scoped></style>
-<style src="../static/plugins/ionslider/ion.rangeSlider.skinNice.css" scoped></style>
-<style src="../static/plugins/bootstrap-slider/slider.css" scoped></style>
-<style src="../static/adminLte/css/AdminLTE.min.css" scoped></style>
-<style src="../static/adminLte/css/skins/_all-skins.min.css" scoped></style>
-<style src="../static/patches.css"></style>
+<style src="../static/adminLte/css/AdminLTE.min.css"></style>
