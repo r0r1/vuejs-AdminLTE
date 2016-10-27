@@ -1,8 +1,7 @@
-# Basetax App
+# vuejs-AdminLTE
+[Admin LTE] (https://almsaeedstudio.com/preview) Starter for [Vue JS] (http://vuejs.org/)
 
-> Basetax Project
-
-## Build Setup
+## Installation
 
 ``` bash
 # install dependencies
@@ -25,3 +24,5 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
