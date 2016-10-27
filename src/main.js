@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import App from './App';
-import AppUser from './AppUser';
 import VueRouter from 'vue-router';
 import Router from './routes';
 import VueResource from 'vue-resource';
@@ -28,8 +27,4 @@ router.beforeEach((transition) => {
   }
 });
 
-if (auth.checkAuth()) {
-  router.start(AppUser, 'body');
-} else {
-  router.start(App, 'body');
-}
+router.start(App, 'body');
