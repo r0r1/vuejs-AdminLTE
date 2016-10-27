@@ -1,0 +1,42 @@
+/*Body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white!important;
+    font-size: 14px;
+}
+
+/*table*/
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th {
+    text-align: center;
+    font-weight: bold;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    font-size: 12px;
+    padding: 8px;
+    line-height: 1.428571429;
+}
+
+.table > thead {
+    border-bottom: 1pt solid darkslategray;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+/*Invoice*/
+.img-invoice{
+    max-height: 100px;
+}
+
+.invoice-middle{
+    margin-top: 70px;
+}

@@ -1,0 +1,515 @@
+@media (min-width: 1230px) {
+    .container-h {
+        width: 1200px;
+    }
+
+
+
+    .main-contain-landing-page-new #record-type-expense-tr {
+        width: 208px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-contain-landing-page-new #record-type-expense-tr,
+    .main-contain-landing-page-new #record-type-income-tr {
+        width: 208px !important;
+    }
+
+
+}
+
+/*Active khi view >1024px*/
+@media (min-width: 1024px) {
+
+}
+
+/*Active khi view >992px*/
+@media (min-width: 992px) {
+    .nav-mb, .rmm-button {
+        display: none !important;;
+    }
+
+    .main-header-nav {
+        float: right;
+        display: block !important;
+    }
+
+    .nb-ab li {
+        float: left;
+    }
+
+    .nb-ab li a {
+        padding: 14px 15px;
+    }
+
+    .nb-ab {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .form-sg-top {
+        float: left;
+        margin: 8px 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .form-nav {
+        display: inline-table;
+        vertical-align: middle;
+        position: relative;
+        border-collapse: separate;
+        margin-right: 25px;
+        margin-bottom: 0px;
+        width: 150px;
+    }
+
+    .form-contact {
+        padding: 10px 15px;
+    }
+
+    .content-client-t {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .table-mobile {
+        display: none;
+    }
+}
+
+/*Active khi view >768px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .ct-hd {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-pay {
+        float: left;
+    }
+
+    .mn-started {
+        float: right;
+    }
+}
+
+@media (min-width: 560px) {
+    .contain-signup-p > ul {
+        width: 500px;
+    }
+
+    .contain-signup-p > h2 {
+        width: 500px;
+    }
+}
+
+@media (min-width: 460px) {
+    .regist-signup {
+        width: 700px;
+    }
+}
+
+/***************************/
+
+@media (max-width: 2000px) {
+    .icon-arrow {
+        left: 36%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .icon-arrow {
+        left: 38%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .list-heading-lg > li:first-child {
+        width: 100%;
+    }
+
+    .list-heading-lg > li:first-child > a > img {
+        margin: 0 auto;
+    }
+
+    .list-heading-lg > li {
+        width: 25%;
+    }
+
+    .main-slide-sl {
+        position: relative;
+    }
+
+    .main-slide-sl div#sync2 .cs-sync2-content > a > h1 {
+        font-size: 18px;
+    }
+
+    .icon-arrow {
+        left: 47%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .left-form {
+        width: 44%;
+    }
+
+    .right-post {
+        width: 55%;
+        margin-right: 1%;
+    }
+
+    .icon-arrow {
+        left: 45%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .trigger-sysn2 {
+        display: block;
+    }
+
+    /*hide table desktop*/
+    .main-tb-pric > .table-responsive {
+        display: none !important;
+    }
+
+    .icon-arrow {
+        left: 54%;
+    }
+}
+
+@media (max-width: 767px) {
+    .left-form {
+        width: 100%;
+    }
+
+    .right-post {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .col-4-h {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .form-control-ct .form-col-6 {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .list-heading-lg > li {
+        width: 50%;
+    }
+
+    .main-slide-text {
+        position: relative;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .main-slide-sl div#sync2 .cs-sync2-content > a > h1 {
+        font-size: 16px;
+    }
+
+    .back-top-top {
+        display: none;
+    }
+
+    .back-top-top-mb {
+        display: block;
+    }
+
+    .tt-headding-tb h1 {
+        font-size: 24px;
+    }
+
+    .tt-headding-tb p {
+        font-size: 15px;
+    }
+
+    /*font table*/
+    .table-mobile .title-table-price .name-title-tb {
+        font-size: 15px;
+    }
+
+    .table-mobile .monney-hd-tb .monney-big {
+        font-size: 35px;
+    }
+
+    .table-mobile .monney-hd-tb .monney-small {
+        font-size: 14px;
+    }
+
+    .table-mobile .monney-hd-tb .pound {
+        left: -9px;
+        top: 5px;
+        font-size: 12px;
+    }
+
+    .table-mobile .text-footer-tt {
+        font-size: 14px;
+    }
+
+    .table-mobile .ct-hd {
+        font-size: 11px;
+    }
+
+    .table-mobile .table-pricing tbody tr th {
+        font-size: 12px;
+    }
+
+    .table-mobile .table-pricing tbody tr td img {
+        width: 17px;
+    }
+
+    .table-mobile .btn-table-get a, .btn-table-get a:hover, .btn-table-get a:active, .btn-table-get a:focus {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+
+    .table-mobile .ask-question, .ask-question:hover, .ask-question:focus, .ask-question:active {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+
+    /*css font table pay*/
+    .table-pay-vat h2 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .monney-hd-tb .monney-medium {
+        font-size: 22px;
+    }
+
+    .pay-buy-now, .pay-buy-now:hover, .pay-buy-now:active, .pay-buy-now:focus {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+
+    .contain-signup-p > h1 {
+        font-size: 28px;
+    }
+
+    .contain-signup-p > h2 {
+        font-size: 20px;
+    }
+
+    .contain-signup-p > ul > li {
+        font-size: 15px;
+    }
+
+    .contain-file-tax-return > ul > li {
+        font-size: 15px;
+    }
+
+    .icon-arrow {
+        left: 58%;
+    }
+
+    /*//nav*/
+    .main-contain-landing-page-new .quick-create-transaction .nav-tabs > li {
+        display: table;
+        min-height: 50px;
+    }
+
+    .main-contain-landing-page-new .quick-create-transaction .nav-tabs > li > a {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .main-contain-landing-page-new .quick-create-transaction .nav > li > a {
+        padding: 5px 5px;
+    }
+}
+
+@media (max-width: 639px) {
+    .back-top-top {
+        right: 15px;
+    }
+
+    .main-contain-landing-page-new .main-welcome .btn-green {
+        padding: 5px 6px;
+        margin: 0px 4px;
+        font-size: 15px;
+    }
+
+    .icon-arrow {
+        left: 55%;
+    }
+
+    /*//nav*/
+    .main-contain-landing-page-new .quick-create-transaction .nav-tabs > li {
+        display: table;
+        min-height: 50px;
+    }
+
+    .main-contain-landing-page-new .quick-create-transaction .nav-tabs > li > a {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .main-contain-landing-page-new .quick-create-transaction .nav > li > a {
+        padding: 5px 5px;
+    }
+
+    /*//*/
+    .main-contain-landing-page-new #message-transaction-success .btn-green {
+        font-size: 13px;
+        padding: 5px 5px;
+    }
+
+    .main-contain-landing-page-new #message-title {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .main-contain-landing-page-new #message-transaction {
+        font-size: 15px;
+        color: #555555;
+    }
+}
+
+/*Active khi view < 480px*/
+@media (max-width: 480px) {
+    .col-4-h {
+        width: 100%;
+    }
+
+    .list-heading-lg > li {
+        width: 100%;
+    }
+
+    .list-heading-lg > li::after {
+        display: none;
+        content: "";
+    }
+
+    .list-heading-lg > li:nth-child(n+2) > a {
+        padding: 10px 10px;
+    }
+
+    .main-slide-sl div#sync2 .cs-sync2-content > a > h1 {
+        font-size: 14px;
+    }
+
+    /*font table*/
+    .table-mobile .title-table-price .name-title-tb {
+        font-size: 13px;
+    }
+
+    .table-mobile .monney-hd-tb .monney-big {
+        font-size: 25px;
+    }
+
+    .table-mobile .monney-hd-tb .monney-small {
+        font-size: 11px;
+    }
+
+    .table-mobile .monney-hd-tb .pound {
+        left: -9px;
+        top: 5px;
+        font-size: 11px;
+    }
+
+    .table-mobile .text-footer-tt {
+        font-size: 12px;
+    }
+
+    .table-mobile .ct-hd {
+        font-size: 10px;
+    }
+
+    .table-mobile .table-pricing tbody tr th {
+        font-size: 12px;
+    }
+
+    .table-mobile .table-pricing tbody tr td img {
+        width: 17px;
+    }
+
+    .table-mobile .btn-table-get a, .btn-table-get a:hover, .btn-table-get a:active, .btn-table-get a:focus {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .table-mobile .ask-question, .ask-question:hover, .ask-question:focus, .ask-question:active {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .main-regiter-br {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main-contain-landing-page-new .main-welcome .btn-green {
+        padding: 5px 6px;
+        margin: 0px 4px;
+        font-size: 15px;
+    }
+
+    .icon-arrow {
+        left: 65%;
+    }
+
+    /*//nav*/
+    .main-contain-landing-page-new .quick-create-transaction .nav-tabs > li > a {
+        font-size: 90%;
+    }
+    .main-contain-landing-page-new .quick-create-transaction .nav > li > a {
+        padding: 4px 4px;
+    }
+
+    .main-contain-landing-page-new #message-transaction-success .btn-green {
+        font-size: 11px;
+        padding: 3px 3px;
+    }
+
+    .main-contain-landing-page-new h2 {
+        font-size: 18px;
+    }
+
+    .main-contain-landing-page-new .main-create-your-first-transaction h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+}
+
+/*Active khi view < 376px*/
+@media (max-width: 376px) {
+    /*//nav*/
+    .main-contain-landing-page-new .quick-create-transaction .nav-tabs > li > a {
+        font-size: 85%;
+    }
+    .main-contain-landing-page-new .quick-create-transaction .nav > li > a {
+        padding: 3px 3px;
+    }
+
+    .main-contain-landing-page-new .main-welcome .btn-green {
+        padding: 6px 6px;
+        margin: 0px 0px;
+        font-size: 12px;
+    }
+
+}
+
+
+/*Active khi view < 340px*/
+@media (max-width: 340px) {
+    /*//nav*/
+    .main-contain-landing-page-new .quick-create-transaction .nav-tabs > li > a {
+        font-size: 80%;
+    }
+    .main-contain-landing-page-new .quick-create-transaction .nav > li > a {
+        padding: 0px 0px;
+    }
+}

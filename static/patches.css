@@ -1,0 +1,4 @@
+/* patching styles that broke when moving into Vue */
+body {
+    background-color: #222d32 !important;
+}
