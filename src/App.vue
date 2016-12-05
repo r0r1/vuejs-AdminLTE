@@ -31,4 +31,5 @@ export default {
 };
 </script>
 
+<style src="../static/adminLte/css/skins/_all-skins.min.css"></style>
 <style src="../static/adminLte/css/AdminLTE.min.css"></style>

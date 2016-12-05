@@ -6,6 +6,8 @@ var projectRoot = path.resolve(__dirname, '../');
 
 module.exports = {
   entry: {
+    fontawesome: 'font-awesome-loader',
+    bootstrap: 'bootstrap-loader/lib/bootstrap.loader?configFilePath=!./config/bs3.yml',
     app: './src/main.js'
   },
   output: {
