@@ -73,5 +73,4 @@ Open config/menus.js, and modify json data.
 }
 ```
 
-## Buy me a coffee
-<a href="https://www.buymeacoffee.com/vGpRdYE" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+<div style="text-align:center"><a href="https://www.buymeacoffee.com/vGpRdYE" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a></div>
